@@ -8,7 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-API_KEY = os.getenv('OPENWEATHER_KEY') # Get from https://openweathermap.org/api
+API_KEY = '7382c9f8be4c724ba34051031c536cda'
+#os.getenv('OPENWEATHER_KEY') # Get from https://openweathermap.org/api
 
 def get_aqi_data(lat, lon, days=10):
     """
