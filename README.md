@@ -1,0 +1,2 @@
+# BlrAqi
+Bangalore AQI Index
